@@ -43,7 +43,7 @@ function playGame(playerChoice) {
         case "YOU LOSE!":
             resultDisplay.classList.add("redText");
             computerScore++;
-            computerScoreDisplay.textContent = playerScore;
+            computerScoreDisplay.textContent = computerScore;
             break;
     }
 
